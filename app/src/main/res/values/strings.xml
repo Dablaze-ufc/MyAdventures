@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">My Adventures</string>
+    <string name="journal_image_preview">Journal Image</string>
+    <string name="image_of_place_visited">Image of place Visited</string>
+    <string name="image_from_a_place">image from a place</string>
+    <string name="click_to_add_an_image_of_a_place">Click to add an image of a place</string>
+    <string name="fun_facts_hint">Fun Facts</string>
+    <string name="name_of_place">Name of place</string>
+    <string name="date">Date</string>
+    <string name="add_a_place">Add a place</string>
+    <string name="name_of_country">Name of Country</string>
+    <string name="country_image_preview">Country image Preview</string>
+    <string name="create_a_memory">Create a memory</string>
+    <string name="image_reference"><![CDATA[<a href=\'https://www.freepik.com/photos/people\'>People photo created by jcomp - www.freepik.com</a>]]></string>
+    <string name="sign_in">Sign In</string>
+    <string name="image_of_a_place">Image of a place</string>
+    <string name="fun_facts">Fun Facts</string>
+    <string name="date_visited">Date Visited</string>
+    <string name="my_adventures">My Adventures</string>
+    <string name="transition_name">Place Transition</string>
+    <string name="add_a_journal_menu">Add a journal</string>
+    <string name="settings_menu">Setting</string>
+    <string name="delete_menu">Delete</string>
+
+    <bool name="isTablet">false</bool>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="my_travels">My Travels</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="about_app_message">This app was developed my Segun Francis as the Capstone Project for the Udacity Android Nanodegree. Having memories is a gift that w all have and we all cherish and this app is geared to making sure that everyone has a ton load of memories to share with family and friends</string>
+    <string name="about_developer_message">Chukwuwa Uchenna is an amazing android developer dedicated to native android developer that is passionate about programming.</string>
+
+
+    <string name="sign_out_message">Do you want to sign out?</string>
+    <string name="menu_about">About</string>
+    <string name="about_app_summary">About The App</string>
+    <string name="about_app">About App</string>
+    <string name="about_developer_summary">Info About the developer</string>
+    <string name="about_developer">About developer</string>
+    <string name="account_category_title">Account</string>
+    <string name="sign_out_summary">Sign out of the App</string>
+    <string name="menu_sign_out">Sign out</string>
+    <string name="positive_dialog_title">YES</string>
+    <string name="negative_dialog_title">NO</string>
+    <string name="neutral_dialog_title">DISMISS</string>
+</resources>

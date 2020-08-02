@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".ui.place.NewPlaceActivity">
+
+            <ImageView
+                android:id="@+id/image_preview"
+                android:layout_width="0dp"
+                android:layout_height="350dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_from_a_place"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <ImageView
+                android:id="@+id/image_add"
+                android:layout_width="@dimen/add_image_size"
+                android:layout_height="@dimen/add_image_size"
+                android:contentDescription="@string/click_to_add_an_image_of_a_place"
+                android:src="@drawable/ic_photo_camera"
+                android:background="?attr/selectableItemBackground"
+                app:layout_constraintBottom_toBottomOf="@+id/image_preview"
+                app:layout_constraintEnd_toEndOf="@+id/image_preview"
+                app:layout_constraintStart_toStartOf="@+id/image_preview"
+                app:layout_constraintTop_toTopOf="@+id/image_preview" />
+
+            <com.udacity.chukwuwauchenna.myadventuresudacity.util.MaxWidthLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="2dp"
+                android:maxWidth="@dimen/detail_card_max_width"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_preview">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInput_name"
+                    style="@style/TextInputLayoutStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name_of_place">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/name_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayout_funFact"
+                    style="@style/TextInputLayoutStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+
+                    android:hint="@string/fun_facts_hint">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/funFact_et"
+                        android:gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/time_linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:baselineAligned="false"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/text_input_horizontal_margin">
+
+                    <TextView
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/date"
+                        android:textSize="@dimen/text_input_text_size" />
+
+                    <TextView
+                        android:id="@+id/date_visited_et"
+                        style="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_input_text_size" />
+
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_create_place"
+                    style="@style/ButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_a_place" />
+            </com.udacity.chukwuwauchenna.myadventuresudacity.util.MaxWidthLinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

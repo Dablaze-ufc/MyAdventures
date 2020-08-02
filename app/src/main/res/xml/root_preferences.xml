@@ -1,0 +1,28 @@
+
+
+    <PreferenceScreen  xmlns:app="http://schemas.android.com/apk/res-auto">
+        <PreferenceCategory
+            app:key="about_category"
+            app:title="@string/menu_about">
+            <Preference
+                app:icon="@drawable/ic_about"
+                app:key="about_app"
+                app:summary="@string/about_app_summary"
+                app:title="@string/about_app" />
+            <Preference
+                app:icon="@drawable/ic_about"
+                app:key="about_developer"
+                app:summary="@string/about_developer_summary"
+                app:title="@string/about_developer" />
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            app:key="account_category"
+            app:title="@string/account_category_title">
+            <Preference
+                app:icon="@drawable/ic_menu_sign_out"
+                app:key="sign_out"
+                app:summary="@string/sign_out_summary"
+                app:title="@string/menu_sign_out" />
+        </PreferenceCategory>
+    </PreferenceScreen>
