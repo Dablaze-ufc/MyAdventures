@@ -12,7 +12,6 @@ import android.widget.RemoteViews;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.udacity.chukwuwauchenna.myadventuresudacity.MainActivity;
 import com.udacity.chukwuwauchenna.myadventuresudacity.R;
 import com.udacity.chukwuwauchenna.myadventuresudacity.data.Place;
 import com.udacity.chukwuwauchenna.myadventuresudacity.ui.journal.JournalActivity;

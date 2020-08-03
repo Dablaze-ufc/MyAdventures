@@ -11,6 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityOptionsCompat;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
@@ -46,6 +48,7 @@ public class PlaceActivity extends AppCompatActivity implements PlaceAdapter.OnP
             mViewModel.addToPrefsForWidget(journal);
 
         }
+
 
         AdventureWidget.updateWidget(this);
 
